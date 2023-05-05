@@ -9,6 +9,11 @@
   "categories": [
     "Themes"
   ],
+  "publisher": "yalpha-dark-eris-color-theme",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "contributes": {
     "themes": [
       {
