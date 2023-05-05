@@ -564,7 +564,6 @@
     {
       "name": "Variables",
       "scope": [
-        "variable.other.property.js",
         "variable.other.object.property.js",
         "meta.object.member.js",
         "meta.objectliteral.js",
@@ -580,6 +579,15 @@
         "meta.method.declaration.js",
         "meta.class.js",
         "source.js"
+      ],
+      "settings": {
+        "foreground": "#cf6a4c"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable.other.property.js"
       ],
       "settings": {
         "foreground": "#cf6a4c"
@@ -1856,7 +1864,8 @@
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#ffac00"
       }
     },
     {
